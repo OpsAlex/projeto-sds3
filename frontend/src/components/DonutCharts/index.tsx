@@ -22,7 +22,7 @@ const DonutCharts = () => {
 
             setChartData({ labels: myLabels, series: mySeries });
         });
-    }, [])
+    }, []);
 
     //Forma Errada
     // let chartData: ChartData = { labels: [], series: [] };
